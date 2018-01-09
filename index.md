@@ -17,6 +17,7 @@ The first tutorial introduces the principles and methods of programming using th
 The second part of the tutorial will feature a combination of principles and practice of session types, which have been intensively developed within different research communities (programming languages, concurrency theory, and software engineering) in the last 20 years. The first part of the tutorial will describe the latest developments on practical program verification based on session types, as available in the [Scribble protocol language](http://www.scribble.org). 
 
 ### References
-- The [Scribble language](http://www.scribble.org) and code generation exercises ([slides](https://www.doc.ic.ac.uk/~rn710/cgo18tutorial.pdf) and [repo](https://github.com/rumineykova/scribble-java.git))
-- Session types for Erlang ([slides](http://mrg.doc.ic.ac.uk/talks/2017/06/opct-2/slides.pdf) and [repo](https://gitlab.doc.ic.ac.uk/rn710/codeINspire)) 
-- Session types for Go deadlock detection ([slides](http://mrg.doc.ic.ac.uk/talks/2017/11/dagstuhl-17462/slides.pdf) and [repo]())
+- The [Scribble language](http://www.scribble.org) and code generation exercises ([slides](https://www.doc.ic.ac.uk/~rn710/cgo18tutorial.pdf), [tool](https://github.com/rumineykova/scribble-java.git))
+- Session types for Erlang ([slides](http://mrg.doc.ic.ac.uk/talks/2017/06/opct-2/slides.pdf) and [tool](https://gitlab.doc.ic.ac.uk/rn710/codeINspire)) 
+- Session types for deadlock detection in Go ([Slides](http://mrg.doc.ic.ac.uk/talks/2017/11/dagstuhl-17462/slides.pdf), 
+[tool](http://mrg.doc.ic.ac.uk/tools/gong/), and [demo](https://github.com/nickng/goncurrency-analysis-framework))
