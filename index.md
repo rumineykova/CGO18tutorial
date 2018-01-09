@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+### Organizers
+Nobuko Yoshida: Professor at Imperial College London (UK)
+Michael Kirkedal Thomsen: Assistant Professor at DIKU, University of Copenhagen (DK)
 
-You can use the [editor on GitHub](https://github.com/rumineykova/cgo2018tutorial/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Audience
+Taught by experienced researchers, the tutorial is targeted at (under)graduate students, researchers, but also at practitioners and professionals interested in reversible computing, verified software and programming language development.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Abstract
+Implementing programs without errors are important for recovery, reliability, and security of software. Many approaches to this have over the years been developed, exemplified by numerous testing techniques, formal verification, and static program analysis. These techniques can be used identify problematic parts of programs or to some degree verify the correctness of them. However, achieving any guarantees is often impossible or (at the least) very cumbersome, which to some extend is due to the complexity of the conventional deterministic computation model. Using a more restricted computation model and from this generate code for the less restricted model has the potential to improve this.
+In this tutorial we will examine two approaches to this. Common for these is the use of linearity to statically give guarantees that was previously not achievable. First approach is to make the step to a fully reversible computation model, with programming languages and tools developed for this. The second approach is to use session types to achieve it through a type system. As will be detailed below, both can be used to generate code for existing systems and therethrough improve recoverability and reliability.
+#### Principles and practice of Reversible Programming
+A way to achieve this is to use a computation model that has a notion of reverse execution. Here, the ability of compute from any reached state back to any previous state is the restriction over a deterministic model; but at the same time the restriction gives the possibility for better reasoning within the model.
+The first tutorial introduces the principles and methods of programming using the reversible imperative language Janus. We illustrate clean reversible programming with examples, and show how static and dynamic data structures can be used in reversible programming. We discuss concrete tools such as program inverters, and introduce the syntax and semantics of Janus. Finally, we how we can generate C++ code from a Janus programs and its possible usage conventional applications.
 
-### Markdown
+#### Principles and practice of Session Types
+The second part of the tutorial will feature a combination of principles and practice of session types, which have been intensively developed within different research communities (programming languages, concurrency theory, and software engineering) in the last 20 years. The first part of the tutorial will describe the latest developments on practical program verification based on session types, as available in the Scribble protocol language (http://www.scribble.org). 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rumineykova/cgo2018tutorial/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### References
+-- The Scribble language and code generation exercises (slides and repo)
+-- Session types for Erlang (slides and repo) 
+-- Session types for (slides and repo)
